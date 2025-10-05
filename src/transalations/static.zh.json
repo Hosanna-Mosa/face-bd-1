@@ -1,0 +1,251 @@
+{
+  "navbar": {
+    "services": "服务",
+    "industries": "行业",
+    "about": "关于",
+    "careers": "职业发展",
+    "blog": "博客",
+    "contact": "接触",
+    "getQuote": "获取报价",
+    "contactUs": "联系我们"
+  },
+  "footer": {
+    "company": "煤层气",
+    "description": "领先的测试、检验、认证和咨询服务提供商。致力于全球安全、保障和可持续发展。",
+    "services": {
+      "title": "服务",
+      "list": [
+        "测试与认证",
+        "检验服务",
+        "审计与评估",
+        "培训与教育",
+        "数字解决方案",
+        "咨询服务"
+      ]
+    },
+    "industries": {
+      "title": "行业",
+      "list": [
+        "汽车",
+        "医疗保健",
+        "能源与公用事业",
+        "制造业",
+        "建造",
+        "食品和农业"
+      ]
+    },
+    "contact": {
+      "title": "接触",
+      "address": "CBM 360 TIV – UK\n79 Denyer St, London SW3 2NY, UK",
+      "phone": "+44 7934 980214",
+      "email": "Support@cbm360tiv.com\ninfo@cbm360tiv.com"
+    },
+    "newsletter": "保持更新",
+    "placeholderEmail": "输入您的电子邮件"
+  },
+  "pages": {
+    "services": {
+      "hero": {
+        "title": "领先的测试、检验和认证服务",
+        "subtitle": "全球信赖",
+        "description": "通过全面的测试、检验、认证和咨询服务确保各行业的安全、保障和可持续性。",
+        "primaryCTAText": "探索服务",
+        "secondaryCTAText": "获取报价"
+      }
+    },
+    "about": {
+      "title": "关于",
+      "breadcrumb": {
+        "home": "家",
+        "about": "关于"
+      },
+      "loading": "加载中...",
+      "error": "内容加载失败"
+    },
+    "careers": {
+      "title": "当前职位空缺",
+      "description": "探索我们全球组织中激动人心的职业发展机会。找到理想的职位，助您职业发展。",
+      "applyNow": "立即申请",
+      "hiringProcess": {
+        "title": "我们的招聘流程",
+        "description": "我们设计的流程透明、高效，并专注于寻找合适的相互契合点。",
+        "steps": {
+          "review": {
+            "title": "申请审核",
+            "description": "我们的人才团队将根据职位要求审核您的申请和资格。"
+          },
+          "interview": {
+            "title": "初次面试",
+            "description": "通过电话或视频面试来讨论您的背景、兴趣以及是否适合该职位。"
+          },
+          "assessment": {
+            "title": "技术评估",
+            "description": "特定角色的技术评估或案例研究来评估您的能力。"
+          },
+          "final": {
+            "title": "最终面试",
+            "description": "与招聘经理和团队成员会面，讨论合作和后续步骤。"
+          }
+        }
+      },
+      "currentOpenings": {
+        "loadingText": "正在加载职业...",
+        "generalApplicationText": "没有找到合适的职位？我们一直在寻找有才华的人才。",
+        "submitGeneralApplication": "提交通用申请"
+      }
+    },
+    "blog": {
+      "title": "最新文章",
+      "description": "来自我们专家团队的技术见解和行业更新。"
+    },
+    "contact": {
+      "officesTitle": "我们的全球办事处",
+      "officesDescription": "我们在全球各地设有办事处，随时为您提供服务。查找您附近的 CBM 办事处，获取本地支持和服务。",
+      "formTitle": "给我们留言",
+      "formDescription": "填写下面的表格，我们的专家将在 24 小时内回复您。",
+      "supportTitle": "获得直接支持",
+      "supportDescription": "想直接联系？我们的客户支持团队随时准备解答您的紧急问题和请求。",
+      "supportPhoneTitle": "电话支持",
+      "supportPhoneDesc": "与我们的客户服务团队联系",
+      "supportPhoneHours": "周一至周五：上午 8:00 - 下午 6:00（东部标准时间）",
+      "supportEmailTitle": "电子邮件支持",
+      "supportEmailDesc": "发送详细的询问和文件",
+      "supportEmailResponse": "24小时内回复",
+      "supportEmergencyTitle": "紧急支援",
+      "supportEmergencyDesc": "全天候支持紧急认证问题",
+      "supportEmergencyNote": "全天候提供紧急服务",
+      "responseGuaranteeTitle": "快速响应保证",
+      "responsePhone": "电话咨询在 3 声响铃内得到答复",
+      "responseEmail": "24小时内回复电子邮件",
+      "responseQuote": "报价请求在 48 小时内处理",
+      "labels": {
+        "firstName": "名 *",
+        "lastName": "姓 *",
+        "email": "电子邮件地址 *",
+        "phone": "电话号码",
+        "company": "公司 *",
+        "industry": "行业",
+        "service": "需要服务",
+        "message": "信息 *",
+        "consent": "我同意 CBM 处理我的个人数据以回复我的咨询。我理解我可以随时撤回同意。"
+      },
+      "placeholders": {
+        "firstName": "约翰",
+        "lastName": "多伊",
+        "email": "john.doe@company.com",
+        "phone": "+1 (555) 123-4567",
+        "company": "您的公司名称",
+        "selectIndustry": "选择行业",
+        "selectService": "选择服务",
+        "message": "请描述您的要求、时间表以及任何具体问题……"
+      },
+      "cta": {
+        "send": "发送消息",
+        "sending": "正在发送..."
+      }
+    }
+  },
+  "services": {
+    "completeServicePortfolio": {
+      "heading": "完整的服务组合",
+      "subheading": "从产品测试到法规遵从，我们提供全面的解决方案，帮助您在全球市场取得成功。"
+    },
+    "servicesList": [
+      {
+        "id": 1,
+        "title": "测试（T）",
+        "description": "全面的测试服务，以验证安全性、性能和合规性。",
+        "icon": "搜索",
+        "link": "/服务/测试",
+        "imageUrl": "/测试检查-bg.jpg",
+        "features": [
+          "无损检测",
+          "性能和可靠性",
+          "标准合规性"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "基于状态的监测（CBM）",
+        "description": "使用分析、传感器和诊断进行预测性维护以减少停机时间。",
+        "icon": "设置",
+        "link": "/服务/煤层气",
+        "features": [
+          "振动和声学分析",
+          "热成像和油分析",
+          "资产健康仪表板"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "检查（一）",
+        "description": "独立检验服务确保质量和法规遵守。",
+        "icon": "盾",
+        "link": "/服务/检查",
+        "features": [
+          "第三方检验",
+          "供应商监控",
+          "现场和工厂审核"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "审计（A）",
+        "description": "流程、供应商和系统审计，以识别风险并推动改进。",
+        "icon": "文件文本",
+        "link": "/服务/审计",
+        "features": [
+          "供应商审核",
+          "过程能力评审",
+          "合规差距分析"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "验证与认证（VC）",
+        "description": "验证和认证服务以证明信任和合规性。",
+        "icon": "奖",
+        "link": "/服务/验证认证",
+        "features": [
+          "管理系统",
+          "产品认证",
+          "监管部门批准"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "创新与研发",
+        "description": "由物联网、人工智能、机器人和工业 4.0 技术支持的下一代解决方案。",
+        "icon": "脑",
+        "link": "/服务/创新路",
+        "features": [
+          "物联网和人工智能监控",
+          "机器人检查",
+          "数字孪生技术"
+        ]
+      }
+    ]
+  },
+  "industryStats": [
+    {
+      "number": "72岁以上",
+      "label": "服务国家",
+      "description": "拥有本地专业知识的全球影响力"
+    },
+    {
+      "number": "7,000+",
+      "label": "全球专家",
+      "description": "高素质的专业人员"
+    },
+    {
+      "number": "25岁以上",
+      "label": "测试实验室",
+      "description": "最先进的设施"
+    },
+    {
+      "number": "33",
+      "label": "多年的卓越成就",
+      "description": "自 1866 年以来值得信赖"
+    }
+  ]
+}
