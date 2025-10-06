@@ -1,0 +1,57 @@
+{
+  "name": "cbm-backend",
+  "version": "1.0.0",
+  "description": "Express.js + MongoDB backend for CBM with multilingual sections and hybrid translations",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/scripts/seed-data.js",
+    "seed:cbm": "node src/scripts/seed-cbm-data.js",
+    "seed:cbm:clear": "node src/scripts/seed-cbm-data.js clear",
+    "seed:clear": "node -e \"require('./src/scripts/seed-data.js').clearAllData()\"",
+    "seed:page": "node src/scripts/seed-page-with-sections.js",
+    "seed:page:clear": "node src/scripts/seed-page-with-sections.js clear",
+    "upload:frontend-images": "node src/scripts/upload-frontend-images-to-cloudinary.js",
+    "create:cover-folders": "node src/scripts/create-industry-cover-folders.js",
+    "upload:industry-covers": "node src/scripts/upload-industry-covers-and-update-images.js",
+    "generate:industry-covers": "node src/scripts/generate-industry-covers-file.js",
+    "strip:covers-from-images": "node src/scripts/strip-cover-from-images.js",
+    "append:sections": "node src/scripts/append-missing-section-bodytext.js --mapping src/scripts/append-input.sample.json --dry-run",
+    "translate:page": "node src/scripts/translate-page-sections.js translate",
+    "list:pages": "node src/scripts/translate-page-sections.js list",
+    "check:translations": "node src/scripts/translate-page-sections.js status",
+    "verify:translations": "node src/scripts/verify-translations.js",
+    "verify:detailed": "node src/scripts/verify-translations.js --detailed",
+    "verify:page": "node src/scripts/verify-translations.js verify --page",
+    "list:sections": "node src/scripts/verify-translations.js sections",
+    "translate:careers": "node src/scripts/translate-careers.js translate",
+    "list:careers": "node src/scripts/translate-careers.js list",
+    "check:career-translations": "node src/scripts/translate-careers.js status"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^6.3.1",
+    "cloudinary": "^2.7.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "glob": "^10.4.5",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.4.1",
+    "mkdirp": "^3.0.1",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^7.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
